@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>聯絡我們 - 基督教福音會永和教會</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+  <body>
+    <div class="bg-white min-h-screen flex flex-col font-sans text-gray-800">
+      <header class="bg-white shadow-md sticky top-0 z-50">
+        <input type="checkbox" id="mobile-menu-toggle" class="hidden peer" />
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-20">
+            <div class="flex items-center">
+              <!-- New Logo SVG - Stylized Cross -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-600" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18 13h-5v5c0 .55-.45 1-1 1s-1-.45-1-1v-5H6c-.55 0-1-.45-1-1s.45-1 1-1h5V6c0-.55.45-1 1-1s1 .45 1 1v5h5c.55 0 1 .45 1 1s-.45 1-1 1z"/>
+              </svg>
+              <a href="/" class="ml-3 text-xl font-bold text-gray-800">基督教福音會永和教會</a>
+            </div>
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex space-x-1">
+              <a href="/prayer-journey.html" class="text-gray-700 hover:text-orange-600 font-medium transition duration-150 ease-in-out px-4 py-2 rounded-md">祈禱之旅</a>
+              <a href="/sunday-bulletin.html" class="text-gray-700 hover:text-orange-600 font-medium transition duration-150 ease-in-out px-4 py-2 rounded-md">主日週報</a>
+              <a href="/sunday-sermon.html" class="text-gray-700 hover:text-orange-600 font-medium transition duration-150 ease-in-out px-4 py-2 rounded-md">主日證道</a>
+              <a href="/church-intro.html" class="text-gray-700 hover:text-orange-600 font-medium transition duration-150 ease-in-out px-4 py-2 rounded-md">教會介紹</a>
+              <a href="/meeting-times.html" class="text-gray-700 hover:text-orange-600 font-medium transition duration-150 ease-in-out px-4 py-2 rounded-md">聚會時間</a>
+              <a href="/event-highlights.html" class="text-gray-700 hover:text-orange-600 font-medium transition duration-150 ease-in-out px-4 py-2 rounded-md">活動剪影</a>
+              <a href="/latest-activities.html" class="text-gray-700 hover:text-orange-600 font-medium transition duration-150 ease-in-out px-4 py-2 rounded-md">最新活動</a>
+              <a href="/contact.html" class="text-gray-700 hover:text-orange-600 font-medium transition duration-150 ease-in-out px-4 py-2 rounded-md">聯絡我們</a>
+            </nav>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+              <label for="mobile-menu-toggle" class="text-gray-700 hover:text-orange-600 focus:outline-none cursor-pointer" aria-label="Toggle menu">
+                <svg class="h-6 w-6 block peer-checked:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+                <svg class="h-6 w-6 hidden peer-checked:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile Navigation -->
+        <nav id="mobile-menu" class="md:hidden bg-white border-t hidden peer-checked:block">
+          <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="/prayer-journey.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-600 rounded-md hover:bg-yellow-50">祈禱之旅</a>
+            <a href="/sunday-bulletin.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-600 rounded-md hover:bg-yellow-50">主日週報</a>
+            <a href="/sunday-sermon.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-600 rounded-md hover:bg-yellow-50">主日證道</a>
+            <a href="/church-intro.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-600 rounded-md hover:bg-yellow-50">教會介紹</a>
+            <a href="/meeting-times.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-600 rounded-md hover:bg-yellow-50">聚會時間</a>
+            <a href="/event-highlights.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-600 rounded-md hover:bg-yellow-50">活動剪影</a>
+            <a href="/latest-activities.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-600 rounded-md hover:bg-yellow-50">最新活動</a>
+            <a href="/contact.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-orange-600 rounded-md hover:bg-yellow-50">聯絡我們</a>
+          </div>
+        </nav>
+      </header>
+      <main class="flex-grow">
+        <div class="py-12 bg-white">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-extrabold text-gray-900 sm:text-5xl">聯絡我們 (Contact Us)</h1>
+                <p class="mt-4 text-xl text-gray-600">我們期待您的來訪與聯繫</p>
+            </div>
+
+            <div class="mb-12 rounded-lg overflow-hidden shadow-2xl">
+                <img class="w-full h-64 sm:h-80 md:h-96 object-cover" src="https://picsum.photos/seed/heartwarming/1200/400" alt="A heartwarming scene representing the church community" />
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-12">
+                
+                <!-- Left Section -->
+                <div class="lg:col-span-2 space-y-12">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6">基本資訊</h2>
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0 text-orange-600">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                  </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-900">地址 (Address)</p>
+                                    <p class="text-gray-600">234新北市永和區中山路一段213號4樓</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0 text-orange-600">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                                      <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.02.74-.25 1.02l-2.2 2.2z"/>
+                                  </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-900">電話 (Phone)</p>
+                                    <p class="text-gray-600">02 2921 9183</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0 text-orange-600">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                  </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-900">E-mail</p>
+                                    <p class="text-gray-600">shchurch.tw@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                          <h2 class="text-2xl font-bold text-gray-900 mb-6">地理位置</h2>
+                          <div class="aspect-w-16 aspect-h-9 rounded-md overflow-hidden border">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.549221191068!2d121.5074251753738!3d25.01258688398463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a98f10738e41%3A0x6fbcf2b5a14d59f5!2z5Z-65556559u56aP55CG5Y2A5rC45ZKM5pyN5ZyS5Y2A5Lit5bG_5q615L-bMjEz6Jmf!5e0!3m2!1szh-TW!2stw!4v1716382834079!5m2!1szh-TW!2stw" 
+                                width="100%" 
+                                height="300" 
+                                style="border: 0;"
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Church Location Map">
+                            </iframe>
+                          </div>
+                    </div>
+                </div>
+
+                <!-- Right Section -->
+                <div class="lg:col-span-3 bg-white p-8 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6">交通資訊</h2>
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="flex items-center text-xl font-semibold text-gray-800 mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3 text-orange-600" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20 4H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-1 12H5V8h14v8zM12 6c-1.66 0-3 1.34-3 3v4h2v-4c0-.55.45-1 1-1s1 .45 1 1v4h2v-4c0-1.66-1.34-3-3-3z"/>
+                                    <path d="M6 15h12v-2H6v2z"/>
+                                </svg>
+                                搭乘捷運 (By MRT)
+                            </h3>
+                            <div class="pl-9 space-y-2 text-gray-600 border-l-2 border-yellow-200 ml-3">
+                                <p><strong class="text-gray-700">捷運永安市場站</strong>下車 (捷運中和新蘆線)。</p>
+                                <p>出站後沿中和路直行，於中山路一段右轉。</p>
+                                <p>步行約8~10分鐘可達。</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="flex items-center text-xl font-semibold text-gray-800 mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3 text-orange-600" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M18 4H6C3.79 4 2 5.79 2 8v10c0 2.21 1.79 4 4 4h12c2.21 0 4-1.79 4-4V8c0-2.21-1.79-4-4-4zm-1.5 14h-9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5h9c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5zM18 11H6V8h12v3z"/>
+                                    <circle cx="8.5" cy="14.5" r="1.5"/>
+                                    <circle cx="15.5" cy="14.5" r="1.5"/>
+                                </svg>
+                                搭乘公車 (By Bus)
+                            </h3>
+                            <div class="pl-9 space-y-2 text-gray-600 border-l-2 border-yellow-200 ml-3">
+                                <p><strong class="text-gray-700">中安街口站</strong>下車，步行約1分鐘。</p>
+                                <p>公車路線：57、214直達、670、綠2左、綠2右。</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="flex items-center text-xl font-semibold text-gray-800 mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3 text-orange-600" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5S18.33 16 17.5 16zM5 11l1.5-4.5h11L19 11H5z"/>
+                                </svg>
+                                自行開車 (By Car)
+                            </h3>
+                            <div class="pl-9 space-y-2 text-gray-600 border-l-2 border-yellow-200 ml-3">
+                                <p>可停在<strong class="text-gray-700">永安市場捷運站</strong>旁停車場。</p>
+                                <p>或四號公園旁<strong class="text-gray-700">國立台灣圖書館地下停車場</strong>。</p>
+                                <p>再步行至教會。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <p class="text-sm text-gray-400">
+              © <span id="current-year"></span> 基督教福音會永和教會 Yonghe Evangelical Church
+            </p>
+            <p class="mt-2 text-sm text-gray-400">
+              234新北市永和區中山路一段213號4樓 | 電話：02 2921 9183
+            </p>
+            <div class="mt-4 flex justify-center space-x-6">
+                <a href="#" class="text-yellow-400 hover:text-orange-600 transition duration-150 ease-in-out" aria-label="Facebook">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.675 0h-21.35C.59 0 0 .59 0 1.325v21.35C0 23.41.59 24 1.325 24H12.82v-9.29h-3.128V11.21h3.128V8.835c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.5h-3.12V24h5.713C23.41 24 24 23.41 24 22.675V1.325C24 .59 23.41 0 22.675 0z"/>
+                    </svg>
+                </a>
+                <a href="#" class="text-yellow-400 hover:text-orange-600 transition duration-150 ease-in-out" aria-label="Instagram">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266.058 1.644.07 4.85.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.059 1.689.073 4.948.073s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281-.073-1.689-.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98C15.667.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z"/>
+                    </svg>
+                </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
